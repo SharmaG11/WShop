@@ -1,3 +1,7 @@
+.wrapper-rassurance {
+    display: flex;
+  }
+
 .sprite {
     background-image: url(../img/spritesheet.png);
     background-repeat: no-repeat;
@@ -62,4 +66,16 @@
     width: 13px;
     height: 16px;
     background-position: -116px -53px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    width: 120px;
+    background-color: white;
+    font-size: 10px;
+    margin: 10px 5px;
 }
